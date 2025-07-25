@@ -4,13 +4,13 @@ Hello 👋🏻🙂 and welcome✨ to my **API Testing Portfolio**! This reposito
 
 This project was diligently prepared by **Esha Israr**.
 
----
+
 
 ## 🌟 Project Overview
 
 This repository serves as a practical guide and illustrative example of API testing scenarios using **JMeter**. My primary goal is to provide clear, executable, and well-documented test plans that showcase effective interaction with **RESTful APIs**, precise data validation, and efficient test data management.
 
----
+
 
 ## ✨ Key Features & Accomplished Tasks
 
@@ -24,7 +24,7 @@ This portfolio addresses the following core API testing objectives, each impleme
 
 * **API Used**: [reqres.in](https://reqres.in) (a reliable mock API for basic request/response testing).
 
----
+
 
 ### 2. Chained CRUD Operations with Persistence Verification 🔗
 
@@ -34,7 +34,7 @@ This portfolio addresses the following core API testing objectives, each impleme
 
 * **API Used**: **Local JSON Server** (`http://localhost:3000`), chosen for its capability to provide actual data persistence for mock APIs.
 
----
+
 
 ### 3. Data-Driven Testing from CSV File 📁➡️📄
 
@@ -44,7 +44,7 @@ This portfolio addresses the following core API testing objectives, each impleme
 
 * **API Used**: **Platzi Fake Store API** (`https://api.escuelajs.co/api/v1`), which supports data persistence for this scenario.
 
----
+
 
 ## 🛠️ Prerequisites
 
@@ -66,7 +66,7 @@ To ensure a smooth experience and successfully run these **JMeter** test plans o
 
 * **GitHub CLI (Optional, but highly recommended for streamlined cloning)**: If you prefer using the convenient `gh repo clone` command, please ensure you have GitHub CLI installed and properly authenticated.
 
----
+
 
 ## 🚀 How to Use & Run the Tests
 
@@ -88,7 +88,7 @@ git clone https://github.com/EshaIsrarX01/API-Testing-with-JMeter.git
 cd API-Testing-with-JMeter
 ```
 
----
+
 
 ### 2. Set Up JSON Server (for Chained CRUD Test)
 
@@ -110,7 +110,7 @@ cd API-Testing-with-JMeter
 
 * ⚠️ **Crucially, keep this terminal window open and running** throughout the duration of your JMeter tests that interact with JSON Server.
 
----
+
 
 ### 3. Prepare CSV File (for Data-Driven Test)
 
@@ -123,13 +123,13 @@ charles.morris,teacher
 # ... and so on for other users
 ```
 
----
+
 
 ### 4. Open JMeter
 
 Launch your **Apache JMeter** application.
 
----
+
 
 ### 5. Load Test Plans
 
@@ -143,7 +143,7 @@ Navigate to the cloned repository folder and open each of the `.jmx` files:
 * `Test plan for api request chaining_02.jmx`
 * `Testing Through CSV File.jmx`
 
----
+
 
 ### 6. Run Tests & View Results
 
@@ -155,7 +155,7 @@ For each individual test plan you wish to execute:
 
 Carefully observe the results in the attached Listeners (e.g., `View Results Tree`, `Summary Report`). A green icon typically indicates success, while red signifies a failure.
 
----
+
 
 ## ⚠️ Important Notes on API Behavior
 
@@ -170,13 +170,13 @@ It's essential to understand the characteristics of the mock APIs used, as their
 * **Platzi Fake Store API (for CSV Driven)**:
   This API is designed to simulate persistence for created resources. While `POST` and immediate `GET` operations on new items are generally consistent, the behavior for subsequent `PATCH`/`DELETE` operations on dynamically created IDs can sometimes exhibit minor variations. The test plan's assertions are specifically designed to accommodate the expected responses from this API.
 
----
+
 
 ## 🤝 Contribution
 
 I welcome and appreciate any **exploration, use, or adaptation** of these test plans for your learning or projects. Should you have any suggestions for improvements, encounter issues, or wish to contribute, please feel free to open an **issue** or submit a **pull request**. Your feedback and collaboration are highly valued!
 
----
+
 
 ## ✉️ Contact
 
@@ -187,7 +187,7 @@ For any questions, further discussion, or professional inquiries, please feel fr
 \[https://www.linkedin.com/in/eshaisrar08]
 \[eesha.israr08@gmail.com]
 
----
+
 
 ## 📄 License
 
